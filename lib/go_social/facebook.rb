@@ -77,7 +77,8 @@ module GoSocial
           colorscheme: "light"
         }.merge("num-posts" => "2")
       end
-
+      
+      # Facebook Script
       def script    
         '<script>  
       (function(d, s, id) {
