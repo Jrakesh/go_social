@@ -1,15 +1,18 @@
 # GoSocial
 
 Currently there is support for the following social widgets/buttons:
-1. Facebook
+
+##### Facebook
   * Like Button
   * Like Box
   * Comment Box
-2. Pinterest
+
+##### Pinterest
   * Pinit Button
   * Pinit_follow Button
   * Pinit Embeduser
-3. Twitter
+
+##### Twitter
   * Tweet Button
   * Twitter_follow Button
   * Twitter timeline
