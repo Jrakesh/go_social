@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["mrrakesh2112@gmail.com"]
   gem.description   = %q{This gem helps to add various social widgets that are commonly used by rails applications. Supports Facebook, Pinterest, Twitter, Flickr, LinkedIn and Google+.}
   gem.summary       = %q{A complete social media makeover.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/Jrakesh/go_social"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
