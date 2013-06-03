@@ -11,7 +11,7 @@ module GoSocial
     block_given? ? yield(context) : context
   end
 
-  # add class method for each social widgets registered
+  # adding class method for each social widgets registered
   names.each do |name|
     (class << self; self; end).send :define_method, name do |&block|
       clazz = "GoSocial::#{name.to_s.camelize}".constantize
