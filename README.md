@@ -126,8 +126,3 @@ So, if you wanted to tweet, attribute it to "loremipsum007", and add some custom
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-## Copyright
-
-Copyright (c) 2013 Rakesh Jha. See LICENSE for details.
-
-Copyright (c) 2012 Yuva Kumar. See LICENSE for details.
