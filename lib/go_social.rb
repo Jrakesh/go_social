@@ -3,7 +3,7 @@ require "go_social/version"
 module GoSocial
 
   def self.names    
-    %w{facebook pinterest twitter}
+    %w{facebook pinterest twitter linkedin}
   end
 
   def self.config name = nil, &block

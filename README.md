@@ -17,6 +17,11 @@ Currently there is support for the following social widgets/buttons:
   * Twitter_follow Button
   * Twitter timeline
 
+##### Linked In
+  * Linkedin Share Button
+  * Linkedin Follow Company Button
+  * Linkedin Member Profile Button
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -51,6 +56,12 @@ ERB example:
 <%= tweet_button(:via => "your-twitter-name") %>
 <%= twitter_follow_button(:href => "twitter-user-url-to-follow") %>
 <%= twitter_timeline("widget-id" => "your-widget-id", :href => "timeline-url") %>
+
+//counter can have values like top, right or none. By default it is top.
+<%= linkedin_share_button(:counter => "right", :url => "linkedin-url-of-user-or-comapny-page") %>
+<%= linkedin_follow_company_button(:counter => "right", :id => "company-id-to-follow") %>
+//format can have values like inline or hover
+<%= linkedin_profile_button(:format => "hover", :text => "John Doe", :width => "400px" , :id => "linkedin-url-of-user-or-comapny-page") %>
 
 ```
 
@@ -109,12 +120,13 @@ So, if you wanted to tweet, attribute it to "loremipsum007", and add some custom
 <%= tweet_button(via: => "loremipsum007", url: "https://twitter.com/loremipsum007", :text => "AWESOME GEM.") %>
 ```
 
-*Only the options you specify will be overridden; so if you only specify a new default `:via`, then the other defaults will stay intact.
+
+*In all cases, only the options you specify will be overridden; so if you only specify a new default `:via`, then the other defaults will stay intact.
 
 
 ## TODO
 
-* Add tests :P
+* Add tests
 * Give more control to customize buttons
 * Add more social buttons.
 
