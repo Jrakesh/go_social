@@ -133,9 +133,9 @@ So, if you wanted to tweet, attribute it to "loremipsum007", and add some custom
 
 ## Queries or Feedback
 
-If you have any issues with [go_social](https://github.com/Jrakesh/go_social) which you cannot find the solution to in the documentation[https://github.com/Jrakesh/go_social], please add an {issue on GitHub}[https://github.com/Jrakesh/go_social/issues] or fork the project and send a pull request.
+If you have any issues with [go_social](https://github.com/Jrakesh/go_social) which you cannot find the solution to in the [documentation](https://github.com/Jrakesh/go_social), please add an [issue on GitHub](https://github.com/Jrakesh/go_social/issues) or fork the project and send a pull request.
 
-Also your suggestions are always welcome.
+Your suggestions are always welcome.
 
 
 ## Acknowledgement
