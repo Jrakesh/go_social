@@ -1,6 +1,6 @@
 # GoSocial
 
-Currently there is support for the following social widgets/buttons:
+Currently there is support for the following social-widgets/buttons:
 
 ##### Facebook
   * Like Button
@@ -100,7 +100,7 @@ More information can be found from [Pinterest](http://pinterest.com/about/goodie
 So, a simple pinit button can be added like this:
 
 ```erb
-<%= pinit_button(url: "your-url", media: @picture.image.url, description: "Amazing Picture") %>
+<%= pinit_button(:url => "your-url", :media => @picture.image.url, :description => "Amazing Picture") %>
 ```
 
 ### Tweet Button
@@ -117,7 +117,7 @@ More information can be found from [Twitter](https://twitter.com/about/resources
 So, if you wanted to tweet, attribute it to "loremipsum007", and add some custom text, all from a tweet button with a horizontal counter, you'd do this:
 
 ```erb
-<%= tweet_button(via: => "loremipsum007", url: "https://twitter.com/loremipsum007", :text => "AWESOME GEM.") %>
+<%= tweet_button(:via => "loremipsum007", :url => "https://twitter.com/loremipsum007", :text => "AWESOME GEM.") %>
 ```
 
 
