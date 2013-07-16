@@ -1,5 +1,5 @@
 # GoSocial
-                                                                                              [![endorse](https://api.coderwall.com/jrakesh/endorsecount.png)](https://coderwall.com/jrakesh)
+    
 Currently there is support for the following social-widgets/buttons:
 
 ##### Facebook
