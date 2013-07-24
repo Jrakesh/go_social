@@ -1,6 +1,6 @@
 # GoSocial
     
-Currently there is support for the following social-widgets/buttons:
+This includes common social widgets that are used too often in every web app these days. We often waste too much time integrating them. This gem provides a quick solution to that, saving your time and headaches. Currently there is support for the following social-widgets/buttons:
 
 ##### Facebook
   * Like Button
