@@ -1,7 +1,8 @@
 # GoSocial
 [![Gem Version](https://badge.fury.io/rb/go_social.png)](http://badge.fury.io/rb/go_social)
 [![Code Climate](https://codeclimate.com/github/Jrakesh/go_social.png)](https://codeclimate.com/github/Jrakesh/go_social)
-    
+[![Dependency Status](https://gemnasium.com/Jrakesh/go_social.png)](https://gemnasium.com/Jrakesh/go_social)
+   
 This includes common social widgets that are used too often in every web app these days. We often waste too much time integrating them. This gem provides a quick solution to that, saving your time and headaches. Currently there is limited support. Supported social-widgets/buttons are listed below :
 
 ##### Facebook
